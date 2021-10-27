@@ -1,5 +1,15 @@
 # yark - Yet Another RootKit
 
+
+## Features
+
+- Hide kernel module from output of `lsmod`
+- Hide a specific process
+- Hide a specific TCP/UDP port
+- Hide file/directory
+- Make a process run as root user
+- A easy-to-use way to interact with kernel module
+
 ## How to Build
 
 ### Requirements
@@ -39,8 +49,6 @@ We use `Makefile` to manage the build flow.
     ```shell
     make clean
     ```
-
-
 
 ## Development
 
